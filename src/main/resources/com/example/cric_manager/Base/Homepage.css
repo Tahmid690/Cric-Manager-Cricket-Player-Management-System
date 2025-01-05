@@ -1,0 +1,102 @@
+.player-details-dialog {
+    -fx-background-color: linear-gradient(
+            to bottom right,
+            #4A90E2, /* Cool Blue */
+            #50E3C2, /* Teal Green */
+            #9013FE  /* Vibrant Purple */
+    );
+    -fx-background-radius: 0; /* Optional for smooth edges */
+}
+
+.player-details-dialog > *.header-panel {
+    -fx-background-color: transparent;
+}
+
+.details-container {
+    -fx-background-color: transparent;
+    -fx-spacing: 15;
+}
+
+.player-name {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 2);
+    -fx-alignment: center;
+}
+
+.position-badge {
+    -fx-background-color: #27AE60;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-background-radius: 15;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.jersey-badge {
+    -fx-background-color: #E67E22;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-background-radius: 15;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.details-grid {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+}
+
+.detail-icon {
+    -fx-font-size: 16px;
+}
+
+.detail-title {
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+}
+
+.detail-value {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.close-button {
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20;
+    -fx-background-radius: 5;
+}
+
+.close-button:hover {
+    -fx-background-color: #C0392B;
+}
+
+.dialog-pane > .button-bar > .container {
+    -fx-background-color: transparent;
+}
+
+.dialog-pane > .content {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-background-radius: 5em;
+}

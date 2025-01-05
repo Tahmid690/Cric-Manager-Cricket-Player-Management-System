@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@button.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cric_manager.Controllers.BuyPlayerController">
+   <children>
+      <TableView fx:id="tablebuy" layoutX="22.0" layoutY="165.0" prefHeight="200.0" prefWidth="750.0" />
+      <Button layoutX="687.0" layoutY="42.0" mnemonicParsing="false" onAction="#back" styleClass="button-29" text="Back" />
+      <Text layoutX="224.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="outlined-text-double" text="Market Place" textAlignment="CENTER" wrappingWidth="346.5971984863281" />
+      <Text layoutX="490.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="outlined-text" text="Cric Manager" wrappingWidth="523.4287719726562">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="166.0" fitWidth="163.0" layoutX="14.0" layoutY="419.0">
+         <image>
+            <Image url="@../../../../../../../cricket-player-logo-design-vector-600nw-2334167363-ezgif.com-webp-to-jpg-converter-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
